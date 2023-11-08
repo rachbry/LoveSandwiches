@@ -137,7 +137,7 @@ def get_stock_values(data):
     stock_info = {}
 
     stock_info = dict(zip(headings, data))
-    print(f"Make the following number of sandwiches for the next market:\n {stock_info}")
+    print(f"Make the following number of sandwiches for the next market:\n\n {stock_info}")
 
 def main():
     '''
